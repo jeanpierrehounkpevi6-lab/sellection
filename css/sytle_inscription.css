@@ -1,0 +1,149 @@
+
+body {
+    padding-top: 80px;
+    background-image: url('../ressources/img3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;  /* coins légèrement arrondis */
+    object-fit: cover;
+    object-position: center ;
+
+}
+
+.form-inscription {
+    background: #111111;
+    border: 1px solid #c9a84c;
+    border-radius: 16px;
+    padding: 2.5rem;
+    margin-top: 40px;
+    box-shadow: 0 0 30px rgba(201, 168, 76, 0.2),
+                0 0 60px rgba(201, 168, 76, 0.05);
+}
+ #mainNav {
+        background-color: #1a1a1a;
+        padding: 10px 0;
+    }
+
+    #mainNav .navbar-brand {
+        color: #f4c430 !important;
+        font-size: 0.75rem;
+        max-width: 40%;
+        white-space: normal;
+        line-height: 1.2;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    
+
+    #mainNav .nav-link {
+        color: #ffffff !important;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 0 15px !important;
+        transition: color 0.2s ease;
+    }
+
+    #mainNav .nav-link:hover {
+        color: #f4c430 !important;
+    }
+
+    /* Lien actif aussi en jaune */
+    #mainNav .nav-link.active {
+        color: #f4c430 !important;
+    }
+
+
+
+
+
+.form-label {
+    color: #c9a84c;
+    font-size: 0.78rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    background-color: #1a1a1a;
+    border: 1px solid #2e2e2e;
+    color: #fff;
+    border-radius: 8px;
+    padding: 0.65rem 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+    background-color: #1a1a1a;
+    border-color: #c9a84c;
+    color: #fff;
+    box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.15);
+}
+
+.form-control::placeholder {
+    color: #444;
+    font-size: 0.85rem;
+}
+
+.input-group-text {
+    background-color: #1f1f1f;
+    border: 1px solid #2e2e2e;
+    color: #c9a84c;
+}
+
+.divider {
+    border-top: 1px solid #2a2a2a;
+    margin: 1.2rem 0;
+}
+
+.btn-gold {
+    background: linear-gradient(135deg, #b8860b, #f0c040, #b8860b);
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 2rem;
+    font-size: 0.85rem;
+    transition: opacity 0.3s, transform 0.2s, box-shadow 0.3s;
+    box-shadow: 0 4px 20px rgba(201, 168, 76, 0.3);
+}
+
+.btn-gold:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(201, 168, 76, 0.45);
+}
+
+.titre-inscription {
+    color: #c9a84c;
+    text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+}
+
+.sous-titre-inscription {
+    color: #555;
+    text-align: center;
+    font-size: 0.82rem;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+
+
+

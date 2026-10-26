@@ -1,0 +1,99 @@
+
+        :root {
+            --noir: #1a1a1a;
+            --or:   #c9a84c;
+            --or-h: #e0b84a;
+        }
+
+        body {
+            min-height: 100vh;
+            background-color: #eef2f7;
+            background-image: radial-gradient(circle, #c5d3e8 1px, transparent 1px);
+            background-size: 28px 28px;
+        }
+
+        /* ---- NAVBAR ---- */
+        .navbar { background-color: var(--noir); border-bottom: 3px solid var(--or); }
+
+        .navbar-brand {
+            color: var(--or) !important;
+            font-weight: 700;
+            letter-spacing: .06em;
+            font-size: 1.1rem;
+        }
+
+        .nav-link {
+            color: #e0e0e0 !important;
+            font-weight: 500;
+            transition: color .2s;
+        }
+        .nav-link:hover { color: var(--or) !important; }
+
+        .nav-link.active { color: var(--or) !important; }
+
+        .btn-deconnexion {
+            border: 1.5px solid var(--or);
+            color: var(--or);
+            border-radius: 8px;
+            font-size: .85rem;
+            padding: 5px 14px;
+            transition: background .2s, color .2s;
+        }
+        .btn-deconnexion:hover { background: var(--or); color: var(--noir); }
+
+        /* ---- BADGE ROLE ---- */
+        .badge-role {
+            background-color: var(--or);
+            color: var(--noir);
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: .8rem;
+            letter-spacing: .05em;
+        }
+
+        /* ---- CARD PROFIL ---- */
+        .card-profil {
+            border: none;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0,0,0,.12);
+            overflow: hidden;
+        }
+
+        .card-profil .card-header {
+            background-color: var(--noir);
+            color: var(--or);
+            font-weight: 700;
+            letter-spacing: .05em;
+            padding: 16px 24px;
+            border-bottom: 2px solid var(--or);
+        }
+
+        .card-profil .card-header i { color: var(--or); }
+
+        .info-row {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .info-row:last-child { border-bottom: none; }
+
+        .info-label {
+            width: 180px;
+            font-size: .78rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: .07em;
+            color: #8896a5;
+        }
+
+        .info-value { font-size: .95rem; color: #2d3748; font-weight: 500; }
+
+        .badge-valide   { background-color: var(--or);  color: var(--noir); font-weight: 700; padding: 3px 12px; border-radius: 20px; font-size:.8rem; }
+        .badge-invalide { background-color: var(--noir); color: var(--or);  font-weight: 700; padding: 3px 12px; border-radius: 20px; font-size:.8rem; }
+
+        /* ---- TITRE PAGE ---- */
+        .page-title { color: var(--noir); font-weight: 800; letter-spacing: .04em; }
+        .page-title span { color: var(--or); }
+    
